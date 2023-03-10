@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.outerbox {
+    margin: auto;
+    max-width: 50vw;
+    height: 90vh;
+    background-color: rgb(240, 224, 194);
+    display: block;
+}
+
+.top {
+    margin: auto;
+    max-width: 50vw;
+    height: 10vh;
+    background-color: rgb(147, 139, 219);
+}
+
+.bottom {
+    margin: auto;
+    max-width: 50vw;
+    height: 80vh;
+    background-color: rgb(139, 219, 188);
+    display: block;
+
+}
+.title {
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 45px;
+    
+}
+
+.startbutton {
+    margin: auto;
+}
+
+p.startbutton {
+
+}
