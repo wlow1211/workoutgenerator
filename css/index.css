@@ -1,42 +1,61 @@
 body {
-    background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
 
-.outerbox {
-    margin: auto;
-    max-width: 50vw;
-    height: 90vh;
-    background-color: rgb(240, 224, 194);
-    display: block;
+.container {
+  display: block;
+
+  margin: auto;
+  max-width: 50vw;
+  height: 90vh;
+  background-color: rgb(240, 224, 194);
 }
 
-.top {
-    margin: auto;
-    max-width: 50vw;
-    height: 10vh;
-    background-color: rgb(147, 139, 219);
-}
-
-.bottom {
-    margin: auto;
-    max-width: 50vw;
-    height: 80vh;
-    background-color: rgb(139, 219, 188);
-    display: block;
-
-}
 .title {
-    margin: auto;
-    padding-top: 10px;
-    text-align: center;
-    font-size: 45px;
-    
+  margin: auto;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 45px;
 }
 
-.startbutton {
-    margin: auto;
+.content {
+  display: flex;
+  margin: auto;
+  margin-top: 60px;
+  max-width: 40vw;
+  height: 70vh;
+  background-color: rgb(139, 219, 188);
 }
 
-p.startbutton {
+.button {
+  background-color: #dfdfdf;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: auto;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
 
+.button:hover,
+.button:focus {
+  background-color: #a8a8a8;
 }
